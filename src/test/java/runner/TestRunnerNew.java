@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="features",
 		glue="stepDefination",
-		plugin={"html:target/cucumber-html-report"}
+				plugin={"html:target/cucumber-html-report","json:target/cucumber.json"}
 		)
 public class TestRunnerNew {
 
