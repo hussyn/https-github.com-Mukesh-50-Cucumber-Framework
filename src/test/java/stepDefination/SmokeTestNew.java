@@ -17,7 +17,7 @@ public class SmokeTestNew
 	@Given("^Open firefox and start application$")
 	public void Open_firefox_and_start_application() throws Throwable {
 	
-		System.setProperty("webdriver.chrome.driver", "C:\\LatestSeleniumDrivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.facebook.com");
